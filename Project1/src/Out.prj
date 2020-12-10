@@ -1,0 +1,65 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3068241025" file="C:\Users\angua\Desktop\project\project1\Out.prj" location="C:\Users\angua\Desktop\project\project1" name="Out" target="target.mlapps" target-name="打包为 App">
+    <param.appname>Out</param.appname>
+    <param.authnamewatermark>An</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\angua\AppData\Local\Temp\tp69c59482_18ca_42bd_929f_79488bf86f61.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>77585a3c-f743-4c43-9f27-0315c197c01d</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Out.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\angua\Desktop\project" name="project1" optional="false">C:\Users\angua\Desktop\project\project1</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>G:\Matlab</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
